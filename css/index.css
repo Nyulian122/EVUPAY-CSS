@@ -1,66 +1,51 @@
-.padre {
+.log {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding: 2rem;
-}
-.cajitas1 {
-    width: 100%;
-    height: 64.4rem;
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 6.5rem 6.5rem 6.5rem;
+
     justify-content: center;
-}
-.cajitas1 img {
-    width: 15.9rem;
-    height: 9.4rem;
-    display: flex;
-    margin-top: 14.2rem;
-}
-.cajitas2 {
-    width: 100%;
-}
-.cajitas2 button {
-    width: 37.4rem;
-    height: 5.6rem;
-    display: flex;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 1.8rem;
+
+    place-items: center;
+    }
+    .log a{
+        text-decoration: none;
+    }
+    .logo {
+    width: 15.5rem;
+    }
+.sing-in{
     background-color: black;
-    justify-content: center;
-}
-.cajitas2 a {
-    display: flex;
-    margin-top: 0.9rem;
-    font-size: 2.39rem;
-    font-weight: 700;
     color: white;
-}
-.cajitas3 {
-    width: 100%;
-    margin-top: 1.6rem;
-}
-.cajitas3 button {
     width: 37.4rem;
     height: 5.6rem;
-    display: flex;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background-color: white;
-    border-radius: 1.8rem;
-    justify-content: center;
-}
-.cajitas3 a {
-    display: flex;
-    margin-top: 0.9rem;
-    font-size: 2.39rem;
+    font-family: 'Reem Kufi';
+    font-style: normal;
     font-weight: 700;
-    color: black;
+    font-size: 23.9437px;
+    line-height: 36px;
+    padding: 0.7rem;
+    text-align: center;
+    border-radius: 18px;
 }
-.cajitas4 {
-    width: 100%;
-    margin-top: 1.6rem;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: 400;
+.create-account{
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 37.4rem;
+    height: 5.6rem;
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.9437px;
+    line-height: 36px;
+    padding: 0.7rem;
+    text-align: center;
+}
+.need-help{
+    font-family: 'Reem Kufi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
 }
